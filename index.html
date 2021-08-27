@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Traffic Light Simulation</title>
+  </head>
+  <body>
+    <header>
+      <h1>Traffic Light Simulation</h1>
+    </header>
+    <main>
+      <section class="traffic-light">
+        <div class="traffic-head">
+          <div class="circle red" id="red"></div>
+          <div class="circle" id="yellow"></div>
+          <div class="circle" id="green"></div>
+        </div>
+        <div class="traffic-body"></div>
+      </section>
+
+      <section>
+        <h3 id="instruction-text"></h3>
+      </section>
+
+      <section>
+        <button id="clear">CLEAR TIMER</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
